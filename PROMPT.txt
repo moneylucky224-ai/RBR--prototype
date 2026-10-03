@@ -1,0 +1,13 @@
+Build a campus-only web platform "CampusShare" to rent/borrow items and share things people no longer use.
+Stack: Python Flask + SQLite + HTML/CSS (runs in VS Code).
+1. Registration (mandatory for everyone): name, phone, email, gender, studying year, location access, clear college ID upload that the system auto-checks (OCR). Profile allows only a photo.
+2. Every user can be uploader and client.
+3. Upload item: category (electrical appliances, books, drafters, dresses, jewellery, handmade/creative), rent or sell, 1st/2nd hand, price, where bought, how it works, demo video.
+4. Electrical items must pass a working-check before listing.
+5. Client sees number of pending requests per item and can request; owner chooses a request; on accept a chat opens in both inboxes.
+6. Chat closes when client clicks "Received" (time recorded); optional feedback/review follows. Chat reopens for a new item.
+7. Owner photographs the borrower at handover. If not returned: post complaint -> public suspect list + campus police notified.
+8. Show safety cautions before taking an item.
+9. Missing-items section (post + search).
+10. Search bar + category browsing like Amazon/Flipkart/Meesho, limited to campus users.
+Also generate a PDF describing these ideas.
